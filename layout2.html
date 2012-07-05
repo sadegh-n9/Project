@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>layout-test </title>
+</head>
+<style type="text/css">
+div.container {
+			width:980px;
+			height:1256px;
+			background-position:top center;	
+}
+
+div {
+	outline:1px dashed #000;	
+}
+
+div.header {
+	width:auto;
+	min-height:210px;
+	
+}
+div.header-left {
+			width:290px;
+			float:left;
+			min-height:210px;
+}
+div.header-right {
+		width:auto;
+		margin-left:290px;
+		border:1px solid #00F;
+		min-height:210px;	
+}
+div.mother {
+		width:auto;
+		min-height:700px;	
+}
+div.main-top {
+	width:auto;
+	min-height:330px;	
+}
+div.main-mid {
+		width:auto;
+		min-height:320px;
+}	
+div.lside-mid {
+		width:330px;
+		min-height:320px;
+		float:left;
+}
+div.mid-mid {
+		width:auto;
+		min-height:320px;
+		margin:0 330px;
+			
+}
+div.rside-mid {
+		width:330px;
+		min-height:320px;
+		float:right;
+		
+}
+div.nakhalaf {
+		width:0;
+		height:0;
+		clear:both;	
+}
+div.main-bottom {
+		width:auto;
+		min-height:250px;	
+}
+div.lside-bottom,div.mid1-bottom,div.mid2-bottom
+{
+				float:left;
+				width:230px;
+				min-height:250px;
+				border:1px dotted #0F3;
+}
+
+div.rside-bottom{
+		margin-left:696px;
+		min-height:250px;	
+}
+div.footer {
+			width:auto;
+	min-height:141px;
+	
+}
+
+</style>
+<body>
+<div class="container">
+<div class="header">
+  	<div class="header-left"></div>
+    <div class="header-right"></div>
+</div>
+<div class="mother">
+	<div class="main-top"></div>
+    <div class="maini-mid">
+  <div class="lside-mid"> </div>
+  <div class="rside-mid"> </div>
+  <div class="mid-mid"> </div>
+  <div class="nakhalaf"> </div>
+  </div>
+  <div class="main-bottom">
+  		<div class="lside-bottom"> </div>
+        <div class="mid1-bottom"> </div>
+        <div class="mid2-bottom"> </div>
+  		<div class="rside-bottom"> </div>
+		<div class="nakhalaf"> </div>
+  </div>
+</div>
+<div  class="footer">
+</div>
+</div>
+</body>
+</html>
