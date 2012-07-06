@@ -4,10 +4,15 @@
 <title>layout-test </title>
 </head>
 <style type="text/css">
+*{
+	margin:0;
+	padding:0;	
+}
 div.container {
 			width:980px;
 			height:1256px;
-			background-position:top center;	
+			background-position:top center;
+			margin:0 auto;	
 }
 
 div {
@@ -23,6 +28,7 @@ div.header-left {
 			width:290px;
 			float:left;
 			min-height:210px;
+			background-image:url(images/h.jpg);
 }
 div.header-right {
 		width:auto;
@@ -36,7 +42,9 @@ div.mother {
 }
 div.main-top {
 	width:auto;
-	min-height:330px;	
+	min-height:310px;
+	border:8px solid #CCC;
+		
 }
 div.main-mid {
 		width:auto;
@@ -85,16 +93,70 @@ div.footer {
 	min-height:141px;
 	
 }
-
+div.menu {
+	height:45px;
+	position:relative;
+	top:0;
+}
+div.menu ul {
+	list-style:none;
+	width:720px;
+	margin:0px auto;
+}
+div.menu ul li {
+	float:left;
+	border-right:10px solid #FFF;
+	position:relative;
+}
+div.menu ul li a {
+	display:block;
+	padding:8px 26px;
+	text-decoration:none;
+	font-size:0.875em;
+	font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	text-transform:capitalize;
+	color:#A09F9E;
+}
+div.menu  ul  li:first-child {
+	border-left:2px solid #FFF;
+}
+div.text {
+		width:688px;
+		min-height:165px;
+		font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
+		color:#A09F9E;
+			
+}
+h3 {
+	max-width:500px;	
+}
 </style>
 <body>
 <div class="container">
 <div class="header">
   	<div class="header-left"></div>
-    <div class="header-right"></div>
+    <div class="header-right">
+    <div class="header">
+  <div class="menu">
+    <ul>
+      <li> <a href="#" > Accueil </a> </li>
+      <li> <a href="#" > Studio </a> </li>
+      <li> <a href="#" > Services </a></li>
+      <li> <a href="#" > Portfolio </a> </li>
+      <li> <a href="#" > Blog </a> </li>
+      <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > Contact </a> </li>
+    </ul>
+  </div>
+  <div class="text">
+  	<h1 style="color:#666;"> Italiayi neveshte :D </h1> </br>
+    <h3 style="max-width:700px;"> inam matneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee :D :P </h3>
+  </div>
+    </div>
 </div>
 <div class="mother">
-	<div class="main-top"></div>
+	<div class="main-top">
+    	<div><img width="100%" src="images/axe mid.jpg";/></div>
+    </div>
     <div class="maini-mid">
   <div class="lside-mid"> </div>
   <div class="rside-mid"> </div>
