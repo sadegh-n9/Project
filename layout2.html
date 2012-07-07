@@ -19,7 +19,7 @@ div.container {
 }
 
 div {
-	outline:1px dashed #000;	
+		outline:1px dashed #000;
 }
 
 div.header {
@@ -36,7 +36,6 @@ div.header-left {
 div.header-right {
 		width:auto;
 		margin-left:290px;
-		border:1px solid #00F;
 		min-height:210px;	
 }
 div.mother {
@@ -116,7 +115,8 @@ div.nakhalaf {
 div.main-bottom {
 		width:auto;
 		min-height:220px;
-		padding:30 0;	
+		padding:30 0;
+		border-top:2px dotted #000;;	
 }
 div.lside-bottom,div.mid1-bottom,div.mid2-bottom
 {
@@ -144,9 +144,24 @@ div.rside-bottom ul li{
 }
 div.footer {
 			width:auto;
-	min-height:141px;
-	
+	min-height:131px;
+	padding:30px 0;
 }
+div.lfooter{
+	float:left;
+	min-height:131px;
+	width:460px;	
+}
+div.rfooter{
+	float:right;
+	min-height:131px;
+	width:220px;	
+}
+div.mfooter{
+		margin:0 20px 0 500px;
+		min-height:131px;
+		width:220px;
+}	
 div.menu {
 	height:45px;
 	position:relative;
@@ -172,7 +187,7 @@ div.menu ul li a {
 	color:#A09F9E;
 }
 div.menu  ul  li:first-child {
-	border-left:2px solid #FFF;
+	border-left:2px solid #F5F4F2;
 }
 div.text {
 		width:688px;
@@ -198,7 +213,10 @@ input {
 div.rside-bottom input:hover {
 			opacity:0.7;
 }
-
+a.zard{
+		background-color:#FF0;
+		background-repeat:repeat-x;	
+}
 </style>
 <body>
 <div class="container">
@@ -256,9 +274,25 @@ div.rside-bottom input:hover {
         </div>
         <div class="mid1-bottom"> 
         	<h4> ye chizi ! </h4>
+            	 <ul>
+                	<li> <a href="#"> ** A </a> </li>
+                    <li> <a href="#"> ** B </a> </li>
+                    <li> <a href="#"> ** C </a> </li>
+                    <li> <a href="#"> ** D </a> </li>
+                    <li> <a href="#"> ** E </a> </li>
+                    <li> <a href="#"> ** F </a> </li>
+                </ul>
         </div>
         <div class="mid2-bottom"> 
         	<h4> ye chizi ! </h4>
+            	 <ul>
+                	<li > <a class="zard" href="#"> ** A </a> </li>
+                    <li > <a class="zard" href="#"> ** B </a> </li>
+                    <li > <a class="zard" href="#"> ** C </a> </li>
+                    <li> <a href="#"> ** D </a> </li>
+                    <li> <a href="#"> ** E </a> </li>
+                    <li> <a href="#"> ** F </a> </li>
+                </ul>
         </div>
   		<div class="rside-bottom">
           <h4> ye chizi ! </h4> 
@@ -266,8 +300,8 @@ div.rside-bottom input:hover {
             		<li> sdfdafasfadasfsaf </li>
                     <li>
                     	<form>
-                        		<input  type="text" value="" name="email" class="in" placeholder="Email" /> 
-                                <input type="submit" value="Ok!" name="ok" class="ok" onClick />                        
+                        		<input  type="text" value="" name="email"  placeholder="Email" /> 
+                                <input type="submit" value="Ok!" name="ok"  onClick />                        
                         </form>
                     </li>
                     <li> sdfsdfkxcbkasbcjnsdjsndcj </li>
@@ -276,8 +310,11 @@ div.rside-bottom input:hover {
 		<div class="nakhalaf"> </div>
   </div>
 </div>
-<div  class="footer">
-</div>
+	<div  class="footer">
+    	<div class="lfooter"></div>
+        <div class="rfooter"></div>
+        <div class="mfooter"></div>
+	</div>
 </div>
 </body>
 </html>
