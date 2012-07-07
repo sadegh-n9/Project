@@ -8,6 +8,9 @@
 	margin:0;
 	padding:0;	
 }
+body{
+		background-color:#F5F4F2;	
+}
 div.container {
 			width:980px;
 			height:1256px;
@@ -44,28 +47,66 @@ div.main-top {
 	width:auto;
 	min-height:310px;
 	border:8px solid #CCC;
-		
+	position:relative;
 }
-div.main-mid {
+div.on-pic{
 		width:auto;
-		min-height:320px;
+		min-height:38px;
+		opacity:0.8;
+		bottom:80px;
+		right:0;
+		background-color:#000;
+		position:absolute;
+		color:#FFF;
+		font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
+		font-size:18px;	
+}
+div.main-mid{
+		width:auto;
+		min-height:300px;
+		padding:20px;
 }	
 div.lside-mid {
-		width:330px;
+		width:303px;
 		min-height:320px;
 		float:left;
+		position:relative;
 }
 div.mid-mid {
 		width:auto;
 		min-height:320px;
-		margin:0 330px;
-			
+		margin:0 320px;
+		position:relative;	
 }
 div.rside-mid {
-		width:330px;
+		width:297px;
 		min-height:320px;
 		float:right;
+		position:relative;
+}
+div.rside-mid img:hover 
+,div.lside-mid img:hover ,
+div.mid-mid img:hover {
+		opacity: 0.7;	
+}
+img.mpic,img.lpic,img.rpic {
+		margin-bottom:30px;
 		
+}
+a{
+	text-decoration:none;
+	color:#A09F9E;	
+}
+div.rside-mid > a > p,
+div.mid-mid > a > p,
+div.lside-mid > a > p {
+		position:absolute;;
+		top:-10px;
+		left:0;
+		background-color:#FF0;
+		font-size:26px;
+		background-repeat:repeat-x;
+		z-index:80;	
 }
 div.nakhalaf {
 		width:0;
@@ -74,19 +115,32 @@ div.nakhalaf {
 }
 div.main-bottom {
 		width:auto;
-		min-height:250px;	
+		min-height:220px;
+		padding:30 0;	
 }
 div.lside-bottom,div.mid1-bottom,div.mid2-bottom
 {
 				float:left;
-				width:230px;
+				width:200px;
 				min-height:250px;
-				border:1px dotted #0F3;
+				margin:0 20px;
 }
 
 div.rside-bottom{
-		margin-left:696px;
-		min-height:250px;	
+		margin-left:750px;
+		min-height:250px;
+		margin-right:20px;	
+}
+ul {
+	list-style:none;
+}
+div.lside-bottom ul li,
+div.mid1-bottom ul li,
+div.mid2-bottom ul li {
+	line-height:30px;	
+}
+div.rside-bottom ul li{
+		line-height:50px;	
 }
 div.footer {
 			width:auto;
@@ -105,7 +159,7 @@ div.menu ul {
 }
 div.menu ul li {
 	float:left;
-	border-right:10px solid #FFF;
+	border-right:10px solid #F5F4F2;
 	position:relative;
 }
 div.menu ul li a {
@@ -130,6 +184,21 @@ div.text {
 h3 {
 	max-width:500px;	
 }
+h4 {
+	margin-bottom:20px;
+	color:#525251;	
+}
+input {
+		float:left;
+		background-color:#E3E1DD;
+		color:#A0A09E;
+		border:1px solid #999;
+		margin:0 3px;	
+}
+div.rside-bottom input:hover {
+			opacity:0.7;
+}
+
 </style>
 <body>
 <div class="container">
@@ -148,26 +217,62 @@ h3 {
     </ul>
   </div>
   <div class="text">
-  	<h1 style="color:#666;"> Italiayi neveshte :D </h1> </br>
-    <h3 style="max-width:700px;"> inam matneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee :D :P </h3>
+  	<h1 style="color:#666;"> Faransavi neveshte :D </h1> </br>
+    <h3 style="max-width:700px;"> inam matneeeeeeeeeeeeee :D :P </h3>
   </div>
     </div>
 </div>
 <div class="mother">
 	<div class="main-top">
-    	<div><img width="100%" src="images/axe mid.jpg";/></div>
+    	<div><img width="100%" src="images/axe mid.jpg";/>
+        <div class="on-pic">
+        		<p style="display:block;"> Bela bela bela bela bela bela bela :P </p>
+        </div>
+        </div>
     </div>
-    <div class="maini-mid">
-  <div class="lside-mid"> </div>
-  <div class="rside-mid"> </div>
-  <div class="mid-mid"> </div>
+    <div class="main-mid">
+  <div class="lside-mid"> 
+  		<a href="#"> <p style="z-index:90;"> PPPP </p> <img class="lpic" src="images/lside.jpg"/> </a>  <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
+  </div>
+  <div class="rside-mid"> 
+  		 <a href="#"> <p> PPPP </p> <img class="rpic" src="images/rside.jpg"/> </a> <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
+  </div>
+  <div class="mid-mid">
+  		 <a href="#"> <p> PPPP </p> <img class="mpic" src="images/mid.jpg"/> </a> <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
+  </div>
   <div class="nakhalaf"> </div>
   </div>
   <div class="main-bottom">
-  		<div class="lside-bottom"> </div>
-        <div class="mid1-bottom"> </div>
-        <div class="mid2-bottom"> </div>
-  		<div class="rside-bottom"> </div>
+  		<div class="lside-bottom">
+        	<h4> ye chizi ! </h4>
+            	<ul>
+                	<li> <a href="#"> ** A </a> </li>
+                    <li> <a href="#"> ** B </a> </li>
+                    <li> <a href="#"> ** C </a> </li>
+                    <li> <a href="#"> ** D </a> </li>
+                    <li> <a href="#"> ** E </a> </li>
+                    <li> <a href="#"> ** F </a> </li>
+                </ul>
+        </div>
+        <div class="mid1-bottom"> 
+        	<h4> ye chizi ! </h4>
+        </div>
+        <div class="mid2-bottom"> 
+        	<h4> ye chizi ! </h4>
+        </div>
+  		<div class="rside-bottom">
+          <h4> ye chizi ! </h4> 
+        	<ul>
+            		<li> sdfdafasfadasfsaf </li>
+                    <li>
+                    	<form>
+                        		<input  type="text" value="" name="email" class="in" placeholder="Email" /> 
+                                <input type="submit" value="Ok!" name="ok" class="ok" onClick />                        
+                        </form>
+                    </li>
+                    <li> sdfsdfkxcbkasbcjnsdjsndcj </li>
+            </ul>
+        </div>
 		<div class="nakhalaf"> </div>
   </div>
 </div>
