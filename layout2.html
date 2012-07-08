@@ -146,11 +146,15 @@ div.footer {
 			width:auto;
 	min-height:131px;
 	padding:30px 0;
+	font-size:12px;
+	font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif;
+	color:#A09F9E;
 }
 div.lfooter{
 	float:left;
 	min-height:131px;
-	width:460px;	
+	width:460px;
+	margin-left:5px;
 }
 div.rfooter{
 	float:right;
@@ -161,7 +165,23 @@ div.mfooter{
 		margin:0 20px 0 500px;
 		min-height:131px;
 		width:220px;
-}	
+}
+div.rfooter a {
+		border:1px solid #999;
+		margin:0 8px;
+		background-color:#E3E1DD;
+		color:#828280;	
+}
+div.rfooter a:hover {
+		opacity:0.7;
+}
+div.mfooter a {
+		float:right;
+		margin:0 5px;	
+}
+div.mfooter a:hover {
+		opacity:0.7;
+}
 div.menu {
 	height:45px;
 	position:relative;
@@ -311,9 +331,19 @@ a.zard{
   </div>
 </div>
 	<div  class="footer">
-    	<div class="lfooter"></div>
-        <div class="rfooter"></div>
-        <div class="mfooter"></div>
+    	<div class="lfooter">
+        		<p st> Copyright&copy;2010 ImpalaWebstudio - Tous droits réservés. <br>  Site déclaré à la CNIL - <a href="#" style="color:#83837F;"> Mentions légales </a>  </p>
+        </div>
+        <div class="rfooter">
+        	<a href="#">Rejoignez-nous</a>
+            <a href="#">Espace Client</a>
+        </div>
+        <div class="mfooter">
+       		<a href="#"><img src="images/footer4.jpg"/></a>
+            <a href="#"><img src="images/footer3.jpg"/></a>
+            <a href="#"><img src="images/footer2.jpg"/></a>
+            <a href="#"><img src="images/footer1.jpg"/></a>
+        </div>
 	</div>
 </div>
 </body>
