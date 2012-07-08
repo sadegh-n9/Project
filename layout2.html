@@ -1,46 +1,41 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>layout-test </title>
+<title>layout-test</title>
 </head>
 <style type="text/css">
 * {
 	margin:0;
-	padding:0;	
+	padding:0;
 }
-body{
-		background-color:#F5F4F2;	
+body {
+	background-color:#F5F4F2;
 }
 div.container {
-			width:980px;
-			height:1256px;
-			background-position:top center;
-			margin:0 auto;	
+	width:980px;
+	height:1256px;
+	background-position:top center;
+	margin:0 auto;
 }
-
-div {
-		outline:1px dashed #000;
-}
-
 div.header {
 	width:auto;
 	min-height:210px;
-	
 }
 div.header-left {
-			width:290px;
-			float:left;
-			min-height:210px;
-			background-image:url(images/h.jpg);
+	width:290px;
+	float:left;
+	min-height:210px;
+	background-image:url(images/h.jpg);
 }
 div.header-right {
-		width:auto;
-		margin-left:290px;
-		min-height:210px;	
+	width:auto;
+	margin-left:290px;
+	min-height:210px;
+	font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif;
 }
 div.mother {
-		width:auto;
-		min-height:700px;	
+	width:auto;
+	min-height:700px;
 }
 div.main-top {
 	width:auto;
@@ -48,139 +43,141 @@ div.main-top {
 	border:8px solid #CCC;
 	position:relative;
 }
-div.on-pic{
-		width:auto;
-		min-height:38px;
-		opacity:0.8;
-		bottom:80px;
-		right:0;
-		background-color:#000;
-		position:absolute;
-		color:#FFF;
-		font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
-		font-size:18px;	
+div.on-pic {
+	width:auto;
+	min-height:38px;
+	opacity:0.8;
+	bottom:80px;
+	right:0;
+	background-color:#000;
+	position:absolute;
+	color:#FFF;
+	font-family:"ColaborateLightRegular", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size:18px;
 }
-div.main-mid{
-		width:auto;
-		min-height:300px;
-		padding:20px;
-}	
+div.main-mid {
+	width:auto;
+	min-height:300px;
+	padding:20px;
+}
 div.lside-mid {
-		width:303px;
-		min-height:320px;
-		float:left;
-		position:relative;
+	width:303px;
+	min-height:320px;
+	float:left;
+	position:relative;
 }
 div.mid-mid {
-		width:auto;
-		min-height:320px;
-		margin:0 320px;
-		position:relative;	
+	width:auto;
+	min-height:320px;
+	margin:0 320px;
+	position:relative;
 }
 div.rside-mid {
-		width:297px;
-		min-height:320px;
-		float:right;
-		position:relative;
+	width:297px;
+	min-height:320px;
+	float:right;
+	position:relative;
 }
-div.rside-mid img:hover 
-,div.lside-mid img:hover ,
-div.mid-mid img:hover {
-		opacity: 0.7;	
+div.rside-mid img:hover, div.lside-mid img:hover, div.mid-mid img:hover {
+	opacity: 0.7;
 }
-img.mpic,img.lpic,img.rpic {
-		margin-bottom:30px;
-		
+img.mpic, img.lpic, img.rpic {
+	margin-bottom:30px;
 }
-a{
+a {
 	text-decoration:none;
-	color:#A09F9E;	
+	color:#A09F9E;
 }
-div.rside-mid > a > p,
-div.mid-mid > a > p,
-div.lside-mid > a > p {
-		position:absolute;;
-		top:-10px;
-		left:0;
-		background-color:#FF0;
-		font-size:26px;
-		background-repeat:repeat-x;
-		z-index:80;	
+div.rside-mid > a > p, div.mid-mid > a > p, div.lside-mid > a > p {
+	position:absolute;
+	;
+	top:-10px;
+	left:0;
+	background-color:#FF0;
+	font-size:26px;
+	background-repeat:repeat-x;
+	z-index:80;
 }
 div.nakhalaf {
-		width:0;
-		height:0;
-		clear:both;	
+	width:0;
+	height:0;
+	clear:both;
 }
 div.main-bottom {
-		width:auto;
-		min-height:220px;
-		padding:30 0;
-		border-top:2px dotted #000;;	
+	width:auto;
+	min-height:220px;
+	padding:30 0;
+	border-top:2px dotted #000;
+	;
+	font-size:12px;
+	font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif;
 }
-div.lside-bottom,div.mid1-bottom,div.mid2-bottom
-{
-				float:left;
-				width:200px;
-				min-height:250px;
-				margin:0 20px;
+div.main-bottom a:hover {
+	color:#828280;
 }
-
-div.rside-bottom{
-		margin-left:750px;
-		min-height:250px;
-		margin-right:20px;	
+div.lside-bottom, div.mid1-bottom, div.mid2-bottom {
+	float:left;
+	width:200px;
+	min-height:250px;
+	margin:0 20px;
+}
+div.rside-bottom {
+	margin-left:750px;
+	min-height:250px;
+	margin-right:20px;
 }
 ul {
 	list-style:none;
 }
-div.lside-bottom ul li,
-div.mid1-bottom ul li,
-div.mid2-bottom ul li {
-	line-height:30px;	
+div.lside-bottom ul li, div.mid1-bottom ul li, div.mid2-bottom ul li {
+	line-height:30px;
 }
-div.rside-bottom ul li{
-		line-height:50px;	
+div.mid2-bottom ul li {
+	line-height:20px;
+}
+div.rside-bottom ul li {
+	line-height:30px;
+	color:#A09F9E;
 }
 div.footer {
-			width:auto;
+	width:auto;
 	min-height:131px;
 	padding:30px 0;
 	font-size:12px;
 	font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif;
 	color:#A09F9E;
 }
-div.lfooter{
+div.lfooter {
 	float:left;
 	min-height:131px;
 	width:460px;
 	margin-left:5px;
 }
-div.rfooter{
+div.rfooter {
 	float:right;
 	min-height:131px;
-	width:220px;	
+	width:220px;
 }
-div.mfooter{
-		margin:0 20px 0 500px;
-		min-height:131px;
-		width:220px;
+div.mfooter {
+	margin:0 20px 0 500px;
+	min-height:131px;
+	width:220px;
 }
 div.rfooter a {
-		border:1px solid #999;
-		margin:0 8px;
-		background-color:#E3E1DD;
-		color:#828280;	
+	border:1px solid #999;
+	margin:0 8px;
+	background-color:#E3E1DD;
+	color:#828280;
 }
 div.rfooter a:hover {
-		opacity:0.7;
+	opacity:0.7;
 }
 div.mfooter a {
-		float:right;
-		margin:0 5px;	
+	float:right;
+	margin:0 5px;
 }
 div.mfooter a:hover {
-		opacity:0.7;
+	opacity:0.7;
 }
 div.menu {
 	height:45px;
@@ -202,149 +199,149 @@ div.menu ul li a {
 	padding:8px 26px;
 	text-decoration:none;
 	font-size:0.875em;
-	font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-family:"ColaborateLightRegular", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	text-transform:capitalize;
 	color:#A09F9E;
 }
-div.menu  ul  li:first-child {
+div.menu ul li:first-child {
 	border-left:2px solid #F5F4F2;
 }
 div.text {
-		width:688px;
-		min-height:165px;
-		font-family:"ColaborateLightRegular","Lucida Grande", "Lucida Sans Unicode", sans-serif;
-		color:#A09F9E;
-			
+	width:688px;
+	min-height:165px;
+	font-family:"ColaborateLightRegular", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	color:#A09F9E;
 }
 h3 {
-	max-width:500px;	
+	max-width:500px;
 }
-h4 {
+div.main-bottom h4 {
 	margin-bottom:20px;
-	color:#525251;	
+	color:#525251;
+	font-size:14px;
 }
 input {
-		float:left;
-		background-color:#E3E1DD;
-		color:#A0A09E;
-		border:1px solid #999;
-		margin:0 3px;	
+	float:left;
+	background-color:#E3E1DD;
+	color:#A0A09E;
+	border:1px solid #999;
+	margin:0 3px;
 }
 div.rside-bottom input:hover {
-			opacity:0.7;
+	opacity:0.7;
 }
-a.zard{
-		background-color:#FF0;
-		background-repeat:repeat-x;	
+a.zard {
+	background-color:#FF0;
+	background-repeat:repeat-x;
 }
 </style>
 <body>
 <div class="container">
 <div class="header">
-  	<div class="header-left"></div>
-    <div class="header-right">
+  <div class="header-left"></div>
+  <div class="header-right">
     <div class="header">
-  <div class="menu">
-    <ul>
-      <li> <a href="#" > Accueil </a> </li>
-      <li> <a href="#" > Studio </a> </li>
-      <li> <a href="#" > Services </a></li>
-      <li> <a href="#" > Portfolio </a> </li>
-      <li> <a href="#" > Blog </a> </li>
-      <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > Contact </a> </li>
-    </ul>
-  </div>
-  <div class="text">
-  	<h1 style="color:#666;"> Faransavi neveshte :D </h1> </br>
-    <h3 style="max-width:700px;"> inam matneeeeeeeeeeeeee :D :P </h3>
-  </div>
+      <div class="menu">
+        <ul>
+          <li> <a href="#" > Accueil </a> </li>
+          <li> <a href="#" > Studio </a> </li>
+          <li> <a href="#" > Services </a></li>
+          <li> <a href="#" > Portfolio </a> </li>
+          <li> <a href="#" > Blog </a> </li>
+          <li> <a href="mailto:sadegh.m11@gmail.com?subject="from site"" > Contact </a> </li>
+        </ul>
+      </div>
+      <div class="text">
+        <h1 style="color:#666; font-size:20px; font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif"> Une agence web à taille humaine, une équipe à votre écoute. </h1>
+        </br>
+        <h3 style="max-width:700px; font-size:18px; font-family:"ColaborateThinRegular", Arial, Helvetica, sans-serif;"> Chez Impala Webstudio, nous sommes une équipe de passionnés, créative et dynamique. Nous réalisons des sites internet clairs et efficaces. De la simplicité en somme, pour vous et vos clients. </h3>
+      </div>
     </div>
-</div>
-<div class="mother">
-	<div class="main-top">
-    	<div><img width="100%" src="images/axe mid.jpg";/>
+  </div>
+  <div class="mother">
+    <div class="main-top">
+      <div><img width="100%" src="images/axe mid.jpg";/>
         <div class="on-pic">
-        		<p style="display:block;"> Bela bela bela bela bela bela bela :P </p>
+          <p style="display:block;"> Bela bela bela bela bela bela bela :P </p>
         </div>
-        </div>
+      </div>
     </div>
     <div class="main-mid">
-  <div class="lside-mid"> 
-  		<a href="#"> <p style="z-index:90;"> PPPP </p> <img class="lpic" src="images/lside.jpg"/> </a>  <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
+      <div class="lside-mid"> <a href="#">
+        <p style="z-index:90;"> L'équipe </p>
+        <img class="lpic" src="images/lside.jpg"/> </a>
+        <p> C'est dans l'enceinte d'une ancienne école que l'équipe d'Impala Webstudio active  ses méninges et sa créativité. Un lieu avant tout convivial, où le travail et la bonne humeur font bon ménage. </p>
+      </div>
+      <div class="rside-mid"> <a href="#">
+        <p> Une pause café ? </p>
+        <img class="rpic" src="images/rside.jpg"/> </a>
+        <p> Les dessous de l'agence, la vie au 43 rue Charlie Chaplin, les dernières actualités, mais aussi les nouvelles réalisations... En parcourant notre blog, plongez dans les coulisses d'Impala Webstudio. </p>
+      </div>
+      <div class="mid-mid"> <a href="#">
+        <p>Une pause café ? </p>
+        <img class="mpic" src="images/mid.jpg"/> </a>
+        <p> Grands buveurs de café que nous sommes, nous serons ravis de vous offrir une petite tasse de ce breuvage torréfié. Alors si vous passez dans le coin, n'hésitez pas ! ... Avec ou sans sucre ? </p>
+      </div>
+      <div class="nakhalaf"> </div>
+    </div>
+    <div class="main-bottom">
+      <div class="lside-bottom">
+        <h4> Impala Webstudio </h4>
+        <ul>
+          <li> <a href="#">>> Accueil</a> </li>
+          <li> <a href="#">>> Studio</a> </li>
+          <li> <a href="#">>> Services</a> </li>
+          <li> <a href="#"> >> Portfolio</a> </li>
+          <li> <a href="#"> >> Blog </a> </li>
+          <li> <a href="#"> >> Contact </a> </li>
+        </ul>
+      </div>
+      <div class="mid1-bottom">
+        <h4><a href="#"> <img src="images/footer1.jpg" /> Quoi de neuf ? </a> </h4>
+        <ul>
+          <li> <a href="#"> >> Responsive design. Ou comment faire entrer une girafe dans une Twingo en trois temps </a> </li>
+          <li> <a href="#"> >> Musique maestro </a> </li>
+          <li> <a href="#"> >> ♬ J'entends le loup, le renard et la belette…</a> </li>
+          <li> <a href="#">>> La véritable nature des Impalas </a> </li>
+        </ul>
+      </div>
+      <div class="mid2-bottom">
+        <h4> Restons en contact </h4>
+        <ul>
+          <li > <a class="zard" href="#"> ** 03 20 26 96 25</a> </li>
+          <li > <a class="zard" href="#"> contact@impala-webstudio.fr </a> </li>
+          <li > <a class="zard" href="#" > ** 43 rue Charlie Chaplin <br>
+            59100 ROUBAIX </a> </li>
+          <li>
+            <p>Trouvez-nous rapidement <br>
+            </p>
+            <a href="http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=43+Rue+Charlie+Chaplin,+Roubaix&sll=46.75984,1.738281&sspn=10.824262,19.753418&ie=UTF8&hq=&hnear=43+Rue+Charlie+Chaplin,+59100+Roubaix,+Nord,+Nord-Pas-de-Calais&z=16"> Google Maps</a> </li>
+        </ul>
+      </div>
+      <div class="rside-bottom">
+        <h4> Recevez notre Newsletter </h4>
+        <ul>
+          <li> Restez informés des dernières actus et potins de l'agence ! </li>
+          <li>
+            <form>
+              <input  type="text" value="" name="email"  placeholder="Email" />
+              <input type="submit" value="Ok!" name="ok"  onClick />
+            </form>
+          </li>
+          <li> Votre adresse email ne sera en aucun cas revendue, ou utilisée par une société autre que la nôtre. </li>
+        </ul>
+      </div>
+      <div class="nakhalaf"> </div>
+    </div>
   </div>
-  <div class="rside-mid"> 
-  		 <a href="#"> <p> PPPP </p> <img class="rpic" src="images/rside.jpg"/> </a> <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
+  <div  class="footer">
+    <div class="lfooter">
+      <p st> Copyright&copy;2010 ImpalaWebstudio - Tous droits réservés. <br>
+        Site déclaré à la CNIL - <a href="#" style="color:#83837F;"> Mentions légales </a> </p>
+    </div>
+    <div class="rfooter"> <a href="#">Rejoignez-nous</a> <a href="#">Espace Client</a> </div>
+    <div class="mfooter"> <a href="#"><img src="images/footer4.jpg"/></a> <a href="#"><img src="images/footer3.jpg"/></a> <a href="#"><img src="images/footer2.jpg"/></a> <a href="#"><img src="images/footer1.jpg"/></a> <a href="#" style="margin:5px 100px 0 0;"><img src="images/footer5.jpg"/></a> </div>
   </div>
-  <div class="mid-mid">
-  		 <a href="#"> <p> PPPP </p> <img class="mpic" src="images/mid.jpg"/> </a> <p> ashfasjfhalsjfhaskhfaskjsakskajsjdsjjlskkdjfjskdk </p>
-  </div>
-  <div class="nakhalaf"> </div>
-  </div>
-  <div class="main-bottom">
-  		<div class="lside-bottom">
-        	<h4> ye chizi ! </h4>
-            	<ul>
-                	<li> <a href="#"> ** A </a> </li>
-                    <li> <a href="#"> ** B </a> </li>
-                    <li> <a href="#"> ** C </a> </li>
-                    <li> <a href="#"> ** D </a> </li>
-                    <li> <a href="#"> ** E </a> </li>
-                    <li> <a href="#"> ** F </a> </li>
-                </ul>
-        </div>
-        <div class="mid1-bottom"> 
-        	<h4> ye chizi ! </h4>
-            	 <ul>
-                	<li> <a href="#"> ** A </a> </li>
-                    <li> <a href="#"> ** B </a> </li>
-                    <li> <a href="#"> ** C </a> </li>
-                    <li> <a href="#"> ** D </a> </li>
-                    <li> <a href="#"> ** E </a> </li>
-                    <li> <a href="#"> ** F </a> </li>
-                </ul>
-        </div>
-        <div class="mid2-bottom"> 
-        	<h4> ye chizi ! </h4>
-            	 <ul>
-                	<li > <a class="zard" href="#"> ** A </a> </li>
-                    <li > <a class="zard" href="#"> ** B </a> </li>
-                    <li > <a class="zard" href="#"> ** C </a> </li>
-                    <li> <a href="#"> ** D </a> </li>
-                    <li> <a href="#"> ** E </a> </li>
-                    <li> <a href="#"> ** F </a> </li>
-                </ul>
-        </div>
-  		<div class="rside-bottom">
-          <h4> ye chizi ! </h4> 
-        	<ul>
-            		<li> sdfdafasfadasfsaf </li>
-                    <li>
-                    	<form>
-                        		<input  type="text" value="" name="email"  placeholder="Email" /> 
-                                <input type="submit" value="Ok!" name="ok"  onClick />                        
-                        </form>
-                    </li>
-                    <li> sdfsdfkxcbkasbcjnsdjsndcj </li>
-            </ul>
-        </div>
-		<div class="nakhalaf"> </div>
-  </div>
-</div>
-	<div  class="footer">
-    	<div class="lfooter">
-        		<p st> Copyright&copy;2010 ImpalaWebstudio - Tous droits réservés. <br>  Site déclaré à la CNIL - <a href="#" style="color:#83837F;"> Mentions légales </a>  </p>
-        </div>
-        <div class="rfooter">
-        	<a href="#">Rejoignez-nous</a>
-            <a href="#">Espace Client</a>
-        </div>
-        <div class="mfooter">
-       		<a href="#"><img src="images/footer4.jpg"/></a>
-            <a href="#"><img src="images/footer3.jpg"/></a>
-            <a href="#"><img src="images/footer2.jpg"/></a>
-            <a href="#"><img src="images/footer1.jpg"/></a>
-        </div>
-	</div>
 </div>
 </body>
 </html>
